@@ -1,6 +1,6 @@
 def fizzbuzz(num)
   output=nil
-  if ((num%3)==0)
+  if (((num%3)==0)&&((num%5)==0))
     output="FizzBuzz"
   if ((num%3)==0)
     output="Fizz"
@@ -10,4 +10,3 @@ def fizzbuzz(num)
 
   return output
 end
-(num%5)==0
